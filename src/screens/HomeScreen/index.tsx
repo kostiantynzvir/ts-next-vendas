@@ -3,6 +3,7 @@ import Main from "./style";
 import Cover from "./components/Cover";
 import Presentation from "./components/Presentation";
 import About from "./components/About";
+import Inscription from "./components/Inscription";
 
 export default function HomeScreen() {
   return (
@@ -10,6 +11,7 @@ export default function HomeScreen() {
       <Cover />
       <Presentation />
       <About />
+      <Inscription />
     </Main>
   );
 }
