@@ -23,10 +23,8 @@ export const PresentationContainer = styled.div`
 
   @media screen and (min-width: 0px) {
     width: 100%;
-    align-items: center;
   }
   @media screen and (min-width: 768px) {
-    align-items: flex-start;
     width: 50%;
   }
 `;
