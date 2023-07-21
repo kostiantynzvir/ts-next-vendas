@@ -1,13 +1,11 @@
 import React from "react";
-import { useTheme } from "styled-components";
-import Text from "@/components/Text";
+import Main from "./style";
+import Cover from "./components/Cover";
 
 export default function HomeScreen() {
-  const theme = useTheme();
-
   return (
-    <Text as="h1" variant="emphasis" color={theme.colors.main}>
-      Olá
-    </Text>
+    <Main>
+      <Cover />
+    </Main>
   );
 }
