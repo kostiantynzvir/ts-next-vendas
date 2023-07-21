@@ -1,0 +1,26 @@
+{
+  "name": "chefao-das-vendas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "@types/react": "^18.2.15",
+    "@types/styled-components": "^5.1.26",
+    "eslint": "8.45.0",
+    "eslint-config-next": "13.4.10",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "next": "^13.4.10",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^6.0.4"
+  },
+  "scripts": {
+    "start": "next start",
+    "dev": "next dev",
+    "build": "next build",
+    "lint": "next lint"
+  }
+}
